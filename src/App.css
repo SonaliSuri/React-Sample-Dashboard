@@ -1,11 +1,11 @@
-.App {
+.AppContent {
   text-align: center;
+  padding:24px;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
-  pointer-events: none;
 }
 
 .App-header {
@@ -30,4 +30,127 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.MuiCardContent-root-78 {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    padding-top:0px !important;
+    padding-bottom:0px !important;
+}
+.MuiCardHeader-root-37 {
+  padding-top:10px !important;
+  padding-bottom:6px !important;
+  color:white;
+}
+.MuiCardActions-root-97
+{
+  padding:0px !important;
+}
+.SimpleBadge-margin-99 {
+  margin-left: 24px !important;
+}
+.AppContent {
+  display: block;
+  min-height: 80vh;
+  padding: 1rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+.AppContent > * + * {
+  margin-top: 1rem;
+}
+
+/* autoprefixer: off */
+@supports(display:grid) {
+  .AppContent {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-gap: 1rem;
+  }
+
+  .AppContent > * + * {
+      margin-top: 0;
+  }
+}
+.right
+{
+float:right;
+border-radius: 30%;
+margin-left: 5px;
+vertical-align: text-bottom;
+}
+@media(max-width: 600px) {
+  .AppContent {
+      display: block;
+  }
+
+  .AppContent > * + * {
+      margin-top: 1rem;
+  }
+}
+.MuiCardContent-root-87
+{ padding:0px !important;
+  padding-left:1px !important;
+  padding-right:1px !important;
+}
+
+.App{
+  background-color: #eeeeee !important;
+}
+
+.MuiCardHeader-action-39
+{
+  padding-top: 3px !important;
+  padding-right: 3px !important;
+}
+.MuiTypography-subheading-50
+{
+  font-size:0.9rem !important;
+}
+
+.MuiListSubheader-gutters-175
+{
+  padding-left:10px !important;
+  padding-right:5px !important;
+}
+.subheader
+{
+  padding-left:20px !important;
+  padding-right:3px !important;
+}
+.MuiIconButton-root-123
+{
+  margin-left: 20px !important;
+  font-size:0.8rem !important;
+}
+.MuiSvgIcon-root-78
+{
+  margin-bottom:-7px !important;
+}
+.MuiExpansionPanelSummary
+{
+  background-color: #ecebeb !important;
+}
+/* .MuiButtonBase-root-34:hover{
+color:transparent !important;
+} */
+.SimpleBadge-margin-215 {
+  margin: 12px !important;
+}
+.SimpleBadge {
+  margin: 10px;
+}
+.MuiExpansionPanelDetails-root-260 {
+  display: flex;
+  padding: 4px 5px 4px !important;
+}
+svg
+{
+  vertical-align:middle !important;
+}
+.cloudicon
+{
+  margin-right:-13px !important;
 }
