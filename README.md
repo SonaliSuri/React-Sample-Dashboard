@@ -1,5 +1,8 @@
 ![Alt text](https://github.com/SonaliSuri/React-Sample-Dashboard/blob/master/Dashboard.PNG)
 
+![Alt text](https://github.com/SonaliSuri/React-Sample-Dashboard/blob/master/Dashboard%20feed%20details%20preview.PNG)
+
+![Alt text](https://github.com/SonaliSuri/React-Sample-Dashboard/blob/master/Feed%20Details.PNG)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
